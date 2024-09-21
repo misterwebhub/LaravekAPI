@@ -10,7 +10,6 @@ use App\Http\Resources\v1\AccountTypeResource;
 use App\Models\User;
 use App\Repositories\v1\AccountRepository;
 use Illuminate\Http\Request;
-
 class AccountController extends Controller
 {
     private $accountRepository;
